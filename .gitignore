@@ -1,0 +1,66 @@
+# General
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Node.js (Express/React)
+/node_modules/
+yarn.lock
+
+package-lock.json
+.cache/
+
+# Python (Flask)
+
+_pycache_/
+*.py[cod]
+instance/
+.env
+env/
+/venv/
+
+# Build artifacts (React)
+build/
+dist/
+*.tsbuildinfo
+SAML.csv
+# Logs and debugging
+logs/
+*.log
+*.debug
+
+# IDE/Editor specific
+.vscode/
+.idea/
+.DS_Store
+
+# Static analysis tools
+.eslintcache
+.stylelintcache
+.pytest_cache/
+
+# Flask-specific
+*.sqlite3
+*.db
+migrations/
+
+# Coverage reports
+coverage/
+*.cover
+*.coverage
+coverage.xml
+
+# Temporary files
+*.bak
+*.backup
+*.tmp
+
+# JSON models (if generated dynamically)
+*.json
+
+# Ignore secrets
+secrets.json
+*.key
+*.pem
+code.zip
